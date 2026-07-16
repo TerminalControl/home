@@ -1,0 +1,22 @@
+/* Custom overrides for the Terminal Control root site, layered on top of Bootstrap. */
+
+.page-content {
+    width: 100%;
+    max-width: 64rem;
+    margin-inline: auto;
+}
+
+.project-card {
+    border: none;
+    background: transparent;
+}
+
+.project-card img {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 0.375rem;
+}
+
+.project-card .card-title {
+    font-weight: 300;
+}
